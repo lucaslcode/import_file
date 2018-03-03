@@ -4,7 +4,7 @@ This plugin uses the system file dialog to get a file from other apps or the fil
 
 It copies the file to your app's temp directory and gives you the path. This way you can read the file with Dart's File class.
 
-##Usage
+## Usage
 ```
 Future<String> ImportFile.importFile(String type)
 ```
