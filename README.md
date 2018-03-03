@@ -1,6 +1,15 @@
 # import_file
 
-A new flutter plugin project.
+This plugin uses the system file dialog to get a file from other apps or the filesystem. **It is currently Android only!**
+
+It copies the file to your app's temp directory and gives you the path. This way you can read the file with Dart's File class.
+
+##Usage
+```
+Future<String> ImportFile.importFile(String type)
+```
+This opens the system dialog and returns the path string on file selection.  
+```type``` is a mimetype like "text/html" which defaults to "\*/*"
 
 ## Getting Started
 
