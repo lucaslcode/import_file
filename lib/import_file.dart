@@ -1,5 +1,3 @@
-package io.github.lucaslcode.importfile;
-
 import 'dart:async';
 
 import 'package:flutter/services.dart';
